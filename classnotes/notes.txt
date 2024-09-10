@@ -1,0 +1,12 @@
+<!- - comment - ->
+- tables are only used for tabular content
+- unordered lists are lists that are not numbered - using <u1></u1>
+- ordered lists have numbers - using <ol>
+^^ can nest each list inside of each other
+
+- divs are a BLOCK element 
+- used <div> </div>
+
+- can add a selector to any html element - allow access to a specific element on the page 
+1. id - select one element at a time - put in the OPENING tag
+2. class
