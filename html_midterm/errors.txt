@@ -1,1 +1,45 @@
-1. line 1 - mising <!DOCTYPE html>
+find_errors : 
+
+1. Line 1 - missing <!DOCTYPE html>
+2. Line 2 - Before <head>, add <html lang = "en-US">
+3. Line 4 - <html language= “en” > is incorrect. The correct code is : <html lang = "en-US">, and this line should happen before <head>.
+4. Line 6 - Inside the <head></head> tags, there should be the title of the page, and <meta charset="UTF-8">. 
+5. Line 9 - no closing </h1> tag
+6. Line 11 - no starting <p> tag.
+7. Line 19 - Incorrect opening tag, it should be <li> Item 6 </li>
+8. Line 24 - The end tag is incorrect - it should match the opening tag. The correct ending tag is </ol> for an ordered list
+9. Line 26 - The new paragraph should have an end tag - </p>
+10. Line 28 - The image is linked incorrectly. Image.png is capitalized, but it shouldn’t be because the image is saved under image.jpg. Also, the image is a jpg not png.
+11. Line 28 - Added missing alt attribute to the <img> tag.
+12. Line 30 - The line is closed incorrectly. The closing tag should be </a> and not </img>
+13. Line 38 - Changed source to src in the <img> tag.
+14. Line 39 - Closing </td> tag missing
+15. Line 45 - Missing end </table> tag.
+15. Line 48 - Missing opening and closing <p></p> tags
+17. Line 48 - Missing <s></s> tags to create the strikethrough text
+18. Line 50 - bgcolor is incorrect, it should be formatted like this: style="background-color: lightgray;"
+19. Line 54 -  no closing comment <!--  -->
+20. Line 54 - Fixed the incorrect comment syntax to <!-- This is a comment -->.
+21. Line 58 - Closed the <a> tag correctly.
+22. Line 61 - Corrected tag placement from <p><em></p></em> to <p><em></em></p>.
+23. Line 64 - Replaced <li> tags with <dt> and <dd> inside the <dl> element.
+24. Line 70 - Fixed the closing tag from </h3> to </h2>.
+25.General - Adjusted indentation and whitespace for readability.
+
+find_errors_2.html : 
+
+Line 4: <h1> should be inside <body>.
+Line 5: Missing closing angle bracket for <body>.
+Line 6: <html> tag should be the first element.
+Line 8: Missing closing </strong> tag.
+Line 10: Incorrect attribute 'href'; should be 'src' and added 'alt' attribute.
+Line 12: The heading was incorrectly referenced, it should have been <h2> and properly closed.
+Line 14: Missing opening <p> tag for "Text".
+Line 16: Invalid comment syntax; should be <!-- this is a comment -->.
+Line 17: Incorrect closing tag; should be </html>.
+Line 2: The <head> tag should be followed by <body>, indicating proper structure.
+Line 3: A proper comment block must use the <!-- --> format instead of being placed incorrectly in the body.
+Line 9: The <div> element is improperly structured without a closing tag.
+Line 4: An actual closing tag for the <h1> is missing (though structurally it's a separate issue since the body should contain it).
+Line 3: The document lacks a <meta> charset, which is a best practice for defining the character set.
+General: The overall structure lacks semantic HTML practices, like correct nesting of elements.
