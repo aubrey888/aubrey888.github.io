@@ -1,0 +1,17 @@
+p {
+    color : blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%
+}
+
+h2 {
+    color: palevioletred
+}
+
+table {
+    background-color: palevioletred;
+    border-color: aqua;
+    border-radius: 50%;
+    font-size: larger;
+    border-style: groove;
+}
