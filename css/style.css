@@ -1,122 +1,77 @@
-/* general pages styles*/
 
 body {
     margin: 0;
-  }
-  
-  .card html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-family: 'Helvetica neue', Arial, 'sans-serif';
     font-size: 10px;
     background-color: #ccc;
-  }
+}
 
-  
-  .card {
+/* basioc card set up */
+.card {
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-color: red;
     border: 0.2em solid black;
     border-radius: 1.5em;
-  }
-  
-  .card header{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
-    border-radius: 1.5em 1.5em 0 0;
-  }
-  
-  .card footer{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
-    border-radius: 0 0 1.5em 1.5em;
-    font-size: 15px;
-    line-height: 15x;
-  }
-  
-  .card img{
-    float: right;
-    max-height: 100%;
-    height: 120px;
-    
-  }
+}
 
-  .card header, .card footer {
+.card header, .card footer {
     height: 30px;
     padding: 10px;
     line-height: 30px;
-  }
+}
 
-  h2, p {
-    margin: 0;
-  }
-
-  .card article {
+.card article {
     height: 120px;
-    background-color:rgba(0, 0, 0, 0.155) ;
-  }
+    background-color: rgba(0, 0, 0, 0.155);
+}
 
-  h2 {
-    font-size: 23px;
-    line-height: 30px;
-  }
+.card img {
+    float: right;
+    max-height: 100%;
+    height: 120px;
+}
 
-  .card article p {
+/* chris cards*/
+.chris-card {
+    background-color: red;
+}
+
+.chris-card article p {
     padding: 10px;
     line-height: 15px;
     color: antiquewhite;
-  }
+}
 
-  .aubrey-card html {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 10px;
-    background-color: #ccc;
-  }
-
-
-  .aubrey-card {
-    width: 35em;
-    height: 22em;
-    margin: 5em auto;
-    background-color: rgb(255, 9, 198);
-    border: 0.2em solid black;
-    border-radius: 1.5em;
-  }
-  
-  .aubrey-card header{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.1), rgba(0,0,0,0));
+.chris-card header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
     border-radius: 1.5em 1.5em 0 0;
-  }
-  
-  .aubrey-card footer{
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0), rgba(0,0,0,0.1));
+}
+
+.chris-card footer {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
     border-radius: 0 0 1.5em 1.5em;
     font-size: 15px;
-    line-height: 15x;
-  }
-  
-  .aubrey-card img{
-    float: right;
-    max-height: 100%;
-    height: 120px;
-    
-  }
+}
 
-  .aubrey-card header, .card footer {
-    height: 30px;
-    padding: 10px;
-    line-height: 30px;
-  }
+/* my card */
+.aubrey-card {
+    background-color: rgb(255, 9, 198);
+}
 
-  .aubrey-card article {
-    height: 120px;
-    background-color:rgba(0, 0, 0, 0.155) ;
-  }
-
-  .aubrey-card article p {
+.aubrey-card article p {
     padding: 10px;
     line-height: 14px;
     color: antiquewhite;
-  }
+}
 
+.aubrey-card header {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0));
+    border-radius: 1.5em 1.5em 0 0;
+}
 
-
-  
+.aubrey-card footer {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.1));
+    border-radius: 0 0 1.5em 1.5em;
+    font-size: 15px;
+}
