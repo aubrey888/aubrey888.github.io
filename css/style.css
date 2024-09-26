@@ -4,7 +4,7 @@ body {
     margin: 0;
   }
   
-  html {
+  .card html {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
     background-color: #ccc;
