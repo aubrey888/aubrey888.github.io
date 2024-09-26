@@ -5,7 +5,7 @@ body {
   }
   
   html {
-    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-family: 'Times New Roman', Times, serif;
     font-size: 10px;
     background-color: #ccc;
   }
@@ -18,7 +18,7 @@ body {
     width: 35em;
     height: 22em;
     margin: 5em auto;
-    background-color: red;
+    background-color: rgb(250, 98, 215);
     border: 0.2em solid black;
     border-radius: 1.5em;
   }
@@ -64,7 +64,7 @@ body {
 
   .card article p {
     padding: 10px;
-    line-height: 15px;
+    line-height: 14px;
     color: antiquewhite;
   }
 
