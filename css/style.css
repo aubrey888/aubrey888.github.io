@@ -1,4 +1,4 @@
-
+/* General page styles */
 body {
     margin: 0;
     font-family: 'Helvetica neue', Arial, 'sans-serif';
@@ -6,7 +6,7 @@ body {
     background-color: #ccc;
 }
 
-/* basioc card set up */
+/* General styles for all cards */
 .card {
     width: 35em;
     height: 22em;
@@ -32,9 +32,9 @@ body {
     height: 120px;
 }
 
-/* chris cards*/
+/* Chris Mills' card-specific styles */
 .chris-card {
-    background-color: red;
+    background-color: red; /* Chris card background */
 }
 
 .chris-card article p {
@@ -54,9 +54,9 @@ body {
     font-size: 15px;
 }
 
-/* my card */
+/* Aubrey Hatch's card-specific styles */
 .aubrey-card {
-    background-color: rgb(255, 9, 198);
+    background-color: rgb(255, 9, 198); /* Aubrey card background */
 }
 
 .aubrey-card article p {
