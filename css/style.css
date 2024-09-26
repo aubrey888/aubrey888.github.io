@@ -9,10 +9,7 @@ body {
     font-size: 10px;
     background-color: #ccc;
   }
-  
-  /* Selectors to be matched up with rulesets */
-  
-  /* Rulesets to be matched up with selectors */
+
   
   .card {
     width: 35em;
@@ -67,6 +64,13 @@ body {
     line-height: 15px;
     color: antiquewhite;
   }
+
+  .aubrey-card html {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    background-color: #ccc;
+  }
+
 
   .aubrey-card {
     width: 35em;
