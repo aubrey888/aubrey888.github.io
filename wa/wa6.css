@@ -1,0 +1,29 @@
+body {
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-image: url(/wa/backgroundoverlay.jpg);
+}
+
+.content-boxes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25% ;
+    grid-template-rows: 10px 50px auto;
+    grid-column-gap: 10px;
+}
+.overlay {
+    grid-column-start: 2 ;
+    position: fixed;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+    cursor: pointer;
+    padding : 1%;
+}
+
+.forecast{
+    grid-column-start:3 ;
+    grid-row-start: 2;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+}
