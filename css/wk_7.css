@@ -1,0 +1,44 @@
+/* ~~~ overall this styling file sets up our page for us to start adding the grid/flexbox ~~~ */
+
+/* this part adds some space vertically between the sections 
+    and adds styling to the h2 that styles each section */
+section{
+    margin-top: 40px;
+}
+
+section h2{
+    color: rgb(147, 63, 178);
+    font-style: italic;
+}
+
+
+/* this part pretties up the part that will become our flexbox
+    1. making the images contained in the .info_card div a manageable width
+        a. note, bc this width is *relative* our images change size once we apply the flexbox property :)
+    2. adding a border to each info_card */
+.info_card img{
+    width: 25%;
+}
+
+.info_card{
+    border: #a1e4e6 dashed 2px;
+}
+
+
+/* this part pretties up the part that will become our grid
+    1. making the images contained in the .unicorns div a manageable width
+        a. note, bc this width is *relative* our images change size once we apply the grid property :)
+    2. adding a border to each .unicorns
+    3. making the paragraph text size smaller (bc the lorem ipsum text is long) */
+
+.unicorns img{
+    width: 15%;
+}
+
+.unicorns{
+    border:#ade6a1 dotted 2px;
+}
+
+.unicorns p{
+    font-size: .9em;
+}
