@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" >
+        <title>
+            ica10 Activity
+        </title>
+    </head>
+
+    <body>
+        <h1>
+            Click on the tigers to say hi!
+        </h1>
+        <img id="image1" src="tiger.jpg" alt="tiger image" width="400" height="300">
+        <img id="image2" src="tiger2.jpg" alt="tiger2 image" width="325" height="300">
+
+        <script>
+            function changeToText(imageId) {
+              document.getElementById(imageId).outerHTML = '<p>Hi!!</p>';
+            }
+    
+            document.getElementById("image1").addEventListener("click", function() {
+              changeToText("image1");
+            });
+          
+            document.getElementById("image2").addEventListener("click", function() {
+              changeToText("image2");
+            });
+          </script>
+        
+
+
+    </body>
+    
+
+    </html>
