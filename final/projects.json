@@ -1,7 +1,7 @@
 {
 	"projects": [{
-			"name": "CandyLand",
-			"subdomain": "candyland",
+			"name": "Together Apart",
+			"subdomain": "together_apart",
 			"category": ["tangible", "networked", "participatory", "publication", "lead", "methods"],
 			"subtitle": "Co-Designing A Robot Interface for Remote Co-Design",
 			"collaborators": ["Kaiwen Sun", "Zahra Dhuliawala", "Fumi Tsukiyama", "Iva Matkovic", "Anastasia Wolf", "Zihao (Leo) Zhang", "Priyanka Balasubramaniyam", "Zach Schwemler", "Allison Druin", "Jason Yip", "Amanda Huynh", "Daniel Leithinger"],
@@ -9,7 +9,7 @@
 			"description": ["In Human-Computer Interaction, children have been active participants in co-designing future technologies for other children. Most studies in co-design (prior to COVID-19), focused on co-located in-person sessions that involved physical techniques, such as hand-drawn and crafted prototypes, acting out scenarios, and playing movement games to generate ideas. However, these physically proximal activities are not possible online. This lack of physical engagement creates barriers and leaves children feeling less creative and engaged in the remote co-design process.", "To workaround this situation in which children are co-designing online, we have worked with KidsTeam UW to create another option for remote co-design: tangible interfaces for remote co-design. Our project, Together Apart, uses toio tabletop robots and a tablet interface to add a tangible dimension to online co-design. When using our system, our child design partners acted in an engaged manner not typically seen in remote settings.", "While working together online, KidsTeam UW children used our toio robotics system to design games, swarm robot expressions, and create physical art together. For our workshop contribution, we will showcase some of our work-in-progress and develop potential collaborations for tangible online co-design. In the future we plan to move from a fully remote environment to a hybrid environment for co-design. We will engage in conversations with KidsTeam UW about how tangible interfaces for hybrid environments differ from fully online contexts."],
 			"mainimg": "tapart.jpg",
 			"video": ["False"],
-			"images": ["unicorn.jpg", "mario and luigi cropped.PNG"],
+			"images": ["tapart.jpg", "mario and luigi cropped.PNG", "draw 1.PNG", "dance actually.PNG", "robot marbles.PNG"],
 			"published": ["True","1"],
 			"citations": [["Casey Lee Hunt, Kaiwen Sun, Zahra Dhuliawala, Fumi Tsukiyama, Iva Matkovic, Zachary Schwemler, Anastasia Wolf, Zihao Zhang, Allison Druin, Amanda Huynh, Daniel Leithinger, and Jason Yip. 2023. <span>Designing Together, Miles Apart: A Longitudinal Tabletop Telepresence Adventure in Online Co-Design with Children</span>. In Proceedings of the 22nd Annual ACM Interaction Design and Children Conference (IDC '23). Association for Computing Machinery, New York, NY, USA, 52–67.", "https://caseyhunt.github.io/assets/idc23-8_3.pdf", "View on ACM", "https://dl-acm-org.colorado.idm.oclc.org/doi/10.1145/3585088.3589359"]]
 			

@@ -1,4 +1,3 @@
-let proj;
 fetch('../final/projects.json')
 .then(response =>{
     return response.json();
@@ -24,28 +23,8 @@ function parseData(data){
     }
 }
 
-for(b of document.querySelectorAll("#buttons button")) {
+for(b of document.querySelectorAll("#button button")) {
     b.addEventListener("click", e=> {
         console.log(e.target.value);
-        sortProjects(e.target.value);
     })
-}
-
-function sortProjects(button){
-    if(button == "clear"){
-        for(let i=0; i<proj.projects.length; i++){
-            document.getElementById(proj.projects[i].subdomain).style.display = "flex";
-        }
-    }else if(button != undefined){
-        for(let i=0; i<proj.projects.length;i++){
-            if(proj.projects[i].category.includes(button) == true){
-                document.getElementById(proj.projects[i].subdomain).style.display = "flex";
-            }else{
-                document.getElementById(proj.projects[i].subdomain).style.display = "none";
-            }
-        }
-    }else{
-        console.log("error!");
-    }
-
 }
