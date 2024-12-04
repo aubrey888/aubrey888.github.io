@@ -10,7 +10,7 @@
 			"mainimg": "assets/candyland1.png",
 			"video": ["False"],
 			"images": ["assets/candyland1.png", "assets/candyland2.png"],
-			"game_link": "candyland/candyland.out",
+			"game_link": "candyland/candyland.out"
 			
 	},{"name": "TactorBots",
 			"subdomain": "tactorbots",
