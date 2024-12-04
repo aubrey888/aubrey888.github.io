@@ -16,7 +16,7 @@ fetch('../final/projects.json')
 function parseData(data) {
     for (let i = 0; i < data.projects.length; i++) {
         document.getElementById("projects").innerHTML += `
-        <a href="./final/${data.projects[i].subdomain}.html">
+        <a href="/final/${data.projects[i].subdomain}.html">
             <div class="row project" id="${data.projects[i].subdomain}">
                 <div class="projimg">
                     <img src="https://aubrey888.github.io/images/chick.png">
@@ -30,6 +30,7 @@ function parseData(data) {
         </a>`;
     }
 }
+
 
 
 for(b of document.querySelectorAll("#buttons button")) {
