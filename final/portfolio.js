@@ -31,8 +31,6 @@ function parseData(data) {
     }
 }
 
-
-
 for(b of document.querySelectorAll("#buttons button")) {
     b.addEventListener("click", e=> {
         console.log(e.target.value);
