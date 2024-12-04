@@ -1,0 +1,6 @@
+Player Initial: a
+Character Name: Sour_Patch_Sharon
+Stamina: 86
+Gold: 58
+Candies: [Venomous Vortex]   [Mystic Marshmallow]   [Fearsome Fudge]   [Toxic Taffy]   
+

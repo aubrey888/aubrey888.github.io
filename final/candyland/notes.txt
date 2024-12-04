@@ -1,0 +1,5 @@
+notes for project
+
+- good menu & player implementation in homework 7
+- try to echo out when get board position back after you draw the card, then figure out to how to echo out the tile type
+previous board poistion + new spaces then get new tile type and echo out tile type based on array
