@@ -1,0 +1,2 @@
+- pygame timer - not a function, write it into each minigame and then clear(?) it 
+- noise for toxic fish 

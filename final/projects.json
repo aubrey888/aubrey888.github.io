@@ -10,22 +10,18 @@
 			"mainimg": "assets/candyland1.png",
 			"video": ["False"],
 			"images": ["assets/candyland1.png", "assets/candyland2.png"],
-			"game_link": "candyland/candyland.out"
+			"game_link": "assets/candyland.zip"
 			
-	},{"name": "TactorBots",
-			"subdomain": "tactorbots",
-			"category": ["tangible", "networked", "participatory", "toolkit", "shape_change", "publication", "award", "support"],
-			"subtitle": "A Haptic Design Toolkit for Out-of-lab Exploration of Emotional Robotic Touch",
-			"collaborators": ["Ran Zhou (Lead)", "Zachary Schwemler","Aksha Baweja", "Harpreet Sareen", "Daniel Leithinger"],
-			"abstract": "A toolkit for haptic designers to explore emotional robotic touch through a web GUI and eight plug and play wearable modules. Social touch is psychologically impactful, TactorBots reduces the barrier to entry for the design / creation of these interactions.",
-			"description": ["Psychological research has found that humans convey specific emotions (e.g., anger, fear, happiness) using social touch patterns, like squeezing a friend's arm when we are afraid. Emotional haptics, then, are an opportunity to create more enriching and intimate interactions with technology. However, designing emotional haptics systems requires a relatively high degree of technical skill. To overcome this challenge and make emotional haptics an accessible 'design canvas,' we created TactorBots."
-			, "TactorBots is a haptic toolkit to create emotional robotic touch. It contains eight plug-and-play wearable tactor modules that render a series of social gestures with servo motors. The associated web GUI allows easy control, modification, and storage of tactile patterns to support fast prototyping. As a result, we remove the need for hardware design and programming, enabling designers to try out various tactile sensations, and create at the boundary between touch and emotion."],
+	},{"name": "Cat Game",
+			"subdomain": "catgame",
+			"category": ["game", "python", "collaboration", "fun"],
+			"subtitle": "A Day in the Life of a Cat!",
+			"collaborators": ["Aubrey Hatch", "Winnie Burke"],
+			"abstract": ["In this game the player navigates the world as a cat. There are different minigames that walk you through the cat's day. Enjoy!"],
 			"mainimg": "tbots_cover.png",
-			"video": ["True","False"],
+			"video": ["False"],
 			"images": ["tbots_cover.png"],
-			"video_url": "https://player.vimeo.com/video/798871223?h=dafa20ef89",
-			"published": ["True","1"],
-			"citations": [["Ran Zhou, Zachary Schwemler, Akshay Baweja, Harpreet Sareen, Casey Lee Hunt, and Daniel Leithinger. 2023. <span>TactorBots: A Haptic Design Toolkit for Out-of-lab Exploration of Emotional Robotic Touch.</span> In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (CHI '23). Association for Computing Machinery, New York, NY, USA, Article 370, 1–19.", "https://caseyhunt.github.io/assets/chi-23.pdf", "View on ACM", "https://dl-acm-org.colorado.idm.oclc.org/doi/abs/10.1145/3544548.3580799"]]
+			"game_link": "assets/cat_game.zip"
 
 	},{
 			"name": "Designing Sensory Extensions for Interactive Simulations",

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Candyland Game</title>
-    <link rel="stylesheet" href="../final/portfolio.css">
+    <link rel="stylesheet" href="portfolio.css">
 </head>
-<body>
+<body id="candyland">
     <header>
         <h1>Candyland Game</h1>
         <p class="subtitle">A Classic Board Game Built in C++</p>
@@ -14,39 +14,40 @@
     
     <section id="about">
         <h2>About the Game</h2>
-        <p>This project implements an interactive board game fashioned after the game Candyland. It is a multiplayer game where users compete to reach the Candy Castle first while solving puzzles and using their wit to slow opponents down with candies.</p>
+        <p>
+            Candyland is a multiplayer board game where players compete to reach the Candy Castle first while solving puzzles and using candies to strategically slow down opponents.
+        </p>
     </section>
 
     <section id="instructions">
-        <h2>How to Compile and Run</h2>
-        <pre>
-Compile: g++ -std=c++17 boardDriver.cpp candystore.cpp player.cpp games.cpp board.cpp menu.cpp tile.cpp -o candyland.out
-Run: ./candyland.out
-
-Dependencies:
-candies.txt, characters.txt, riddles.txt must be in the ./text_files/ directory.
-Ensure these headers are included:
-- board.h, games.h, menu.h, player.h, tile.h, candystore.h
-        </pre>
-        <p>For more details, download the <a href="README.txt" target="_blank">README file</a>.</p>
+        <h2>How to Play</h2>
+        <ol>
+            <li>Download the game by clicking the link below.</li>
+            <li>Unzip the downloaded file to a folder.</li>
+            <li>Ensure the `text_files/` folder and `candyland.out` file are in the same directory.</li>
+            <li>Run the game with the following command in a terminal:
+                <pre>./candyland.out</pre>
+            </li>
+        </ol>
+        <p>For more detailed instructions, refer to the <a href="assets/README.txt" target="_blank">README file</a>.</p>
     </section>
 
     <section id="media">
         <h2>Gallery</h2>
-        <img src="candyland_screenshot1.png" alt="Candyland Screenshot 1">
-        <img src="candyland_screenshot2.png" alt="Candyland Screenshot 2">
+        <img src="assets/candyland1.png" alt="Candyland Screenshot 1">
+        <img src="assets/candyland2.png" alt="Candyland Screenshot 2">
     </section>
 
     <section id="resources">
         <h2>Resources</h2>
         <p>
-            <a href="https://github.com/your-repo-link" target="_blank">View Source Code</a><br>
-            <a href="candyland.zip" download>Download the Game</a>
+            <a href="https://github.com/aubrey888/aubrey888.github.io/tree/main/final/candyland" target="_blank">View Source Code</a><br>
+            <a href="assets/candyland.zip" download>Download the Game</a>
         </p>
     </section>
 
     <footer>
-        <p>Author: Aubrey Hatch</p>
+        <p>Created by Aubrey Hatch</p>
     </footer>
 </body>
 </html>
