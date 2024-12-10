@@ -18,7 +18,7 @@
 			"subtitle": "A Day in the Life of a Cat!",
 			"collaborators": ["Aubrey Hatch", "Winnie Burke"],
 			"abstract": ["In this game the player navigates the world as a cat. There are different minigames that walk you through the cat's day. Enjoy!"],
-			"mainimg": "tbots_cover.png",
+			"mainimg": "assets/catCOVER.png",
 			"video": ["False"],
 			"images": ["tbots_cover.png"],
 			"game_link": "assets/cat_game.zip"
@@ -31,7 +31,7 @@
 			"collaborators": ["Chris Hill (Co-Lead)", "Sammie Crowder", "Brett Fielder", "Emily Moore", "Ann Eisenberg"],
 			"abstract": "This is an animation that inspires people to vote.",
 			"description": ["A project I completed for my image class"],
-			"mainimg": "assets/vote.gif",
+			"mainimg": "assets/voteCOVER.png",
 			"video": ["True","True"],
 			"images": ["assets/vote.gif"]
 

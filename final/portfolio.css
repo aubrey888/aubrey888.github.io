@@ -87,3 +87,38 @@
 .aboutlink a:hover {
     color: #0056b3; 
 }
+
+
+/* carousel */
+.full-img {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.full-img img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+.thumb-bar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.thumb-bar img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.thumb-bar img:hover {
+    transform: scale(1.1);
+    border: 2px solid #555;
+}
