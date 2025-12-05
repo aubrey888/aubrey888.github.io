@@ -122,3 +122,18 @@
     transform: scale(1.1);
     border: 2px solid #555;
 }
+
+.tagline {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.about-cta {
+    margin-top: 1rem;
+}
+
+
+
