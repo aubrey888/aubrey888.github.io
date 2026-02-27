@@ -42,7 +42,7 @@
       "images": ["assets/vote.gif"]
     },
     {
-      "name": "elle cold brew Branding (Illustrator)",
+      "name": "elle cold brew Branding ",
       "subdomain": "elle-cold-brew",
       "category": ["design", "branding", "illustrator", "packaging"],
       "subtitle": "Moodboard + logo + can label design",
@@ -54,7 +54,7 @@
       "pdf_link": "assets/elle-cold-brew.pdf"
     },
     {
-      "name": "Hay Day: Digital Culture Study (Presentation)",
+      "name": "Hay Day: Digital Culture Study ",
       "subdomain": "hayday-study",
       "category": ["research", "presentation", "ux", "digital-culture"],
       "subtitle": "Community + retention + demographics in mobile games",
