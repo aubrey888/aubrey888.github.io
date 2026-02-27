@@ -23,7 +23,7 @@ function parseData(data) {
                 <div class="description">
                     <h2>${data.projects[i].name}</h2>
                     <p class="subtitle">${data.projects[i].subtitle}</p>
-                    <p>${data.projects[i].abstract}</p>
+                    <p>${Array.isArray(data.projects[i].abstract) ? data.projects[i].abstract[0] : data.projects[i].abstract}</p>
                 </div>
             </div>
         </a>`;

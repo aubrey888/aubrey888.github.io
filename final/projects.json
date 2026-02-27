@@ -35,5 +35,36 @@
 			"video": ["True","True"],
 			"images": ["assets/vote.gif"]
 
-		}]
+		}
+
+		,
+		{
+			"name": "elle cold brew Branding (Illustrator)",
+			"subdomain": "elle-cold-brew",
+			"category": ["design", "branding", "illustrator", "packaging"],
+			"subtitle": "Moodboard + logo + can label design",
+			"collaborators": ["Aubrey Hatch"],
+			"abstract": "Branding exploration for a cold brew concept, including moodboard and packaging mockups.",
+			"mainimg": "assets/elleCOVER.png",
+			"video": ["False"],
+			"images": ["assets/elleCOVER.png"],
+			"pdf_link": "assets/elle-cold-brew.pdf"
+},
+{
+			"name": "Hay Day: Digital Culture Study (Presentation)",
+			"subdomain": "hayday-study",
+			"category": ["research", "presentation", "ux", "digital-culture"],
+			"subtitle": "Community + retention + demographics in mobile games",
+			"collaborators": ["Aubrey Hatch"],
+			"abstract": "Slide deck analyzing Hay Day as a social platform and how community features influence retention and player identity.",
+			"mainimg": "assets/haydayCOVER.png",
+			"video": ["False"],
+			"images": ["assets/haydayCOVER.png"],
+			"pdf_link": "assets/hayday-study.pdf"
+}
+		
+	
+	
+	
+	]
 	}
