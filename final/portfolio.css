@@ -23,7 +23,12 @@
 }
 
 .project img {
-    width:10vw;
+    width: 140px;
+    border-radius: 8px;
+}
+
+.projimg {
+    flex-shrink: 0;
 }
 
 #buttons{
