@@ -1,7 +1,7 @@
 let subdomain = window.location.href.slice(window.location.href.lastIndexOf("/")+1, window.location.href.lastIndexOf("."));
 console.log(subdomain);
 
-fetch('../final/projects.json')
+fetch('projects.json')
     .then(response =>{
         return response.json();
     }).then(projects => {

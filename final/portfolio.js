@@ -1,6 +1,6 @@
 let proj;
 
-fetch('../final/projects.json')
+fetch('projects.json')
     .then((response) => response.json())
     .then((projects) => {
         console.log(projects);
