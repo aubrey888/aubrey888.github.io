@@ -1,70 +1,69 @@
 {
-	"projects": [{
-			"name": "CandyLand Game",
-			"subdomain": "candyland",
-			"category": ["game", "boardgame", "c++"],
-			"subtitle": "The Classic Board Game, CandyLand, coded in C++",
-			"collaborators": ["Aubrey Hatch"],
-			"abstract": "This project implements an interactive board game fashioned after the game Candyland. This is a multiplayer game, and users will compete to make it to the Candy Castle first. Users will encounter fun challanges and puzzles to solve along their journey. Participants can also use their wit to slow their opponenets down by deploying candies with different effects.",
-			"description": ["This project implements an interactive board game fashioned after the game Candyland. This is a multiplayer game, and users will compete to make it to the Candy Castle first. Users will encounter fun challanges and puzzles to solve along their journey. Participants can also use their wit to slow their opponenets down by deploying candies with different effects."],
-			"mainimg": "assets/candyland1.png",
-			"video": ["False"],
-			"images": ["assets/candyland1.png", "assets/candyland2.png"],
-			"game_link": "assets/candyland.zip"
-			
-	},{"name": "Cat Game",
-			"subdomain": "catgame",
-			"category": ["game", "python", "collaboration", "fun"],
-			"subtitle": "A Day in the Life of a Cat!",
-			"collaborators": ["Aubrey Hatch", "Winnie Burke"],
-			"abstract": ["In this game the player navigates the world as a cat. There are different minigames that walk you through the cat's day. Enjoy!"],
-			"mainimg": "assets/catCOVER.png",
-			"video": ["False"],
-			"images": ["tbots_cover.png"],
-			"game_link": "assets/cat_game.zip"
-
-	},{
-			"name": "Vote Animation",
-			"subdomain": "animation",
-			"category": ["python", "art", "animation", "image", "gif", "vote"],
-			"subtitle": "An Animation built in Procreate",
-			"collaborators": ["Chris Hill (Co-Lead)", "Sammie Crowder", "Brett Fielder", "Emily Moore", "Ann Eisenberg"],
-			"abstract": "This is an animation that inspires people to vote.",
-			"description": ["A project I completed for my image class"],
-			"mainimg": "assets/voteCOVER.png",
-			"video": ["True","True"],
-			"images": ["assets/vote.gif"]
-
-		}
-
-		,
-		{
-			"name": "elle cold brew Branding (Illustrator)",
-			"subdomain": "elle-cold-brew",
-			"category": ["design", "branding", "illustrator", "packaging"],
-			"subtitle": "Moodboard + logo + can label design",
-			"collaborators": ["Aubrey Hatch"],
-			"abstract": "Branding exploration for a cold brew concept, including moodboard and packaging mockups.",
-			"mainimg": "assets/elleCOVER.png",
-			"video": ["False"],
-			"images": ["assets/elleCOVER.png"],
-			"pdf_link": "assets/elle-cold-brew.pdf"
-},
-{
-			"name": "Hay Day: Digital Culture Study (Presentation)",
-			"subdomain": "hayday-study",
-			"category": ["research", "presentation", "ux", "digital-culture"],
-			"subtitle": "Community + retention + demographics in mobile games",
-			"collaborators": ["Aubrey Hatch"],
-			"abstract": "Slide deck analyzing Hay Day as a social platform and how community features influence retention and player identity.",
-			"mainimg": "assets/haydayCOVER.png",
-			"video": ["False"],
-			"images": ["assets/haydayCOVER.png"],
-			"pdf_link": "assets/hayday-study.pdf"
+  "projects": [
+    {
+      "name": "CandyLand Game",
+      "subdomain": "candyland",
+      "category": ["game", "boardgame", "c++"],
+      "subtitle": "The Classic Board Game, CandyLand, coded in C++",
+      "collaborators": ["Aubrey Hatch"],
+      "abstract": "This project implements an interactive board game inspired by CandyLand. Players compete to reach the Candy Castle while solving puzzles and strategically deploying candies to slow opponents.",
+      "mainimg": "assets/candyland1.png",
+      "video": ["False"],
+      "images": ["assets/candyland1.png", "assets/candyland2.png"],
+      "game_link": "assets/candyland.zip"
+    },
+    {
+      "name": "Cat Game",
+      "subdomain": "catgame",
+      "category": ["game", "python", "collaboration", "fun"],
+      "subtitle": "A Day in the Life of a Cat!",
+      "collaborators": ["Aubrey Hatch", "Winnie Burke"],
+      "abstract": "In this game, the player navigates the world as a cat through interactive mini-games that simulate a day in feline life.",
+      "mainimg": "assets/catCOVER.png",
+      "video": ["False"],
+      "images": ["assets/catCOVER.png"],
+      "game_link": "assets/cat_game.zip"
+    },
+    {
+      "name": "Vote Animation",
+      "subdomain": "animation",
+      "category": ["python", "art", "animation", "image", "gif", "vote"],
+      "subtitle": "An Animation built in Procreate",
+      "collaborators": [
+        "Chris Hill (Co-Lead)",
+        "Sammie Crowder",
+        "Brett Fielder",
+        "Emily Moore",
+        "Ann Eisenberg"
+      ],
+      "abstract": "A collaborative animation project designed to inspire people to vote.",
+      "mainimg": "assets/voteCOVER.png",
+      "video": ["True"],
+      "images": ["assets/vote.gif"]
+    },
+    {
+      "name": "elle cold brew Branding (Illustrator)",
+      "subdomain": "elle-cold-brew",
+      "category": ["design", "branding", "illustrator", "packaging"],
+      "subtitle": "Moodboard + logo + can label design",
+      "collaborators": ["Aubrey Hatch"],
+      "abstract": "Branding exploration for a cold brew concept, including moodboard development, logo exploration, and packaging mockups.",
+      "mainimg": "assets/elleCOVER.png",
+      "video": ["False"],
+      "images": ["assets/elleCOVER.png"],
+      "pdf_link": "assets/elle-cold-brew.pdf"
+    },
+    {
+      "name": "Hay Day: Digital Culture Study (Presentation)",
+      "subdomain": "hayday-study",
+      "category": ["research", "presentation", "ux", "digital-culture"],
+      "subtitle": "Community + retention + demographics in mobile games",
+      "collaborators": ["Aubrey Hatch"],
+      "abstract": "Slide deck analyzing Hay Day as a social platform and how community systems influence player retention, identity, and engagement.",
+      "mainimg": "assets/haydayCOVER.png",
+      "video": ["False"],
+      "images": ["assets/haydayCOVER.png"],
+      "pdf_link": "assets/hayday-study.pdf"
+    }
+  ]
 }
-		
-	
-	
-	
-	]
-	}
