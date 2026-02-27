@@ -135,5 +135,28 @@
     margin-top: 1rem;
 }
 
+/* Project detail sections */
+#goal, #contributions, #skills-gained {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 16px 18px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+#goal h2, #contributions h2, #skills-gained h2 {
+  margin-top: 0;
+}
+
+#contributions ul, #skills-gained ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+#contributions li, #skills-gained li {
+  margin: 6px 0;
+}
+
 
 
